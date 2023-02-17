@@ -5,7 +5,7 @@
 def solution(people, limit):
     people.sort()
 
-    # 투 포인터를 사용하여 가장 가벼운 사람과 가장 무거운 사람을 묶어서 구명보트에 탑승시켜야 함
+    # [Key Point] 투 포인터를 사용하여 가장 가벼운 사람과 가장 무거운 사람을 묶어서 구명보트에 탑승시켜야 함
     front = 0
     rear = len(people) - 1
 
@@ -30,3 +30,7 @@ def solution(people, limit):
             rear = rear - 1
 
     return answer
+
+
+print(solution([70, 50, 80, 50], 100))  # 3
+print(solution([70, 80, 50], 100))  # 3

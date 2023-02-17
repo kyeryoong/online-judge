@@ -1,4 +1,5 @@
 # P86971. 전력망을 둘로 나누기
+# [프로그래머스] https://school.programmers.co.kr/learn/courses/30/lessons/86971
 
 
 # 깊이 우선 탐색 알고리즘
@@ -39,6 +40,6 @@ def solution(n, wires):
     return answer
 
 
-print(solution(9, [[1, 3], [2, 3], [3, 4], [4, 5], [4, 6], [4, 7], [7, 8], [7, 9]]))
-print(solution(4, [[1, 2], [2, 3], [3, 4]]))
-print(solution(7, [[1, 2], [2, 7], [3, 7], [3, 4], [4, 5], [6, 7]]))
+print(solution(9, [[1, 3], [2, 3], [3, 4], [4, 5], [4, 6], [4, 7], [7, 8], [7, 9]]))    # 3
+print(solution(4, [[1, 2], [2, 3], [3, 4]]))    # 0
+print(solution(7, [[1, 2], [2, 7], [3, 7], [3, 4], [4, 5], [6, 7]]))    # 1

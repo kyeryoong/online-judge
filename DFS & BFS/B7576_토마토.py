@@ -7,9 +7,6 @@ import sys
 input = sys.stdin.readline
 
 
-# Deque 사용
-
-
 m, n = map(int, input().split())
 
 graphs = [list(map(int, input().split())) for _ in range(0, n)]
