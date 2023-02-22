@@ -7,15 +7,16 @@ import sys
 input = sys.stdin.readline
 
 
+# 토마토 상자의 가로와 세로 길이
 m, n = map(int, input().split())
 
+# 토마토가 있는 지점의 정보
 graphs = [list(map(int, input().split())) for _ in range(0, n)]
 
 
+# 토마토가 있는 지점(그래프에서 1인 지점)을 찾기
 queue = deque()
 
-
-# 토마토가 있는 지점(그래프에서 1인 지점)을 찾기
 for i in range(0, n):
     for j in range(0, m):
         if graphs[i][j] == 1:
@@ -39,7 +40,6 @@ def BFS():
                 graphs[nx][ny] = graphs[x][y] + 1
 
 
-# 알고리즘 수행
 BFS()
 
 

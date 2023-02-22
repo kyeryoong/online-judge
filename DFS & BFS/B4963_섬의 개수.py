@@ -2,7 +2,6 @@
 # [백준] https://www.acmicpc.net/problem/4963
 
 
-from collections import deque
 import sys
 input = sys.stdin.readline
 
