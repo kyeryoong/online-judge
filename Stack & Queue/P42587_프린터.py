@@ -14,7 +14,6 @@ def solution(priorities, location):
     
     # 대기목록에 문서가 남아있을 때 까지 진행
     while queue:
-        
         # 대기목록에 있는 문서들의 중요도를 계산
         priority = [q[1] for q in queue]
         

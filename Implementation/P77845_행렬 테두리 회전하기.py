@@ -41,7 +41,6 @@ def solution(rows, columns, queries):
 
     # 각 범위마다 행렬을 회전
     for query in queries:
-        
         # 회전하기 이전의 행렬
         before = []
         

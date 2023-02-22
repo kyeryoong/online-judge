@@ -19,8 +19,9 @@ def solution(queue1, queue2):
     # 큐의 길이의 4배까지 반복문 수행
     limit = len(queue1) * 4
 
-    for count in range(0, limit):
 
+    # [Key Point] 합이 높은 큐에서 추출하여 합이 낮은 큐에 삽입
+    for count in range(0, limit):
         # queue1의 합이 queue2의 합보다 큰 경우
         if sum1 > sum2:
 

@@ -5,7 +5,6 @@
 def solution(lands):
     for i in range(1, len(lands)):        
         for j in range(0, 4):
-            
             # 바로 위 행에서 같은 열에 있는 수를 제외하고 최대값을 선택
             
             # 11 12 13 14

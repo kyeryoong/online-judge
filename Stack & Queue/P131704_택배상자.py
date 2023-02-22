@@ -12,8 +12,7 @@ def solution(order):
     order_index = 0
 
     for i in range(1, len(order) + 1):    
-        
-        # 컨테이너 벨트에서 택배 상자를 꺼내 보조 컨테이너 벨트로 삽입
+        # [Key Point] 컨테이너 벨트에서 택배 상자를 꺼내 보조 컨테이너 벨트로 삽입
         stack.append(i)
 
         # 보조 컨테이너 벨트의 가장 마지막 택배 상자가 현재 배달 순서랑 일치하는지 확인

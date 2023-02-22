@@ -13,7 +13,6 @@ def solution(people, limit):
 
     # 투 포인터가 만나기전 까지 실행
     while front <= rear:
-
         # 가장 가벼운 사람과 가장 무거운 사람의 몸무게 합이 구명 보트의 무게 제한 이하인 경우
         if people[front] + people[rear] <= limit:
             answer = answer + 1

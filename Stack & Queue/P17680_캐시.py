@@ -14,7 +14,6 @@ def solution(cacheSize, cities):
 
 
     for i in range(0, len(cities)):
-        
         # 입력된 도시이름이 캐시에 있는 경우
         if cities[i].lower() in cache:
             

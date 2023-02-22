@@ -6,7 +6,6 @@ def solution(n, left, right):
     answer = []
         
     for i in range(left, right + 1):
-        
         # n번째 숫자의 행은 i // n
         row = i // n
         

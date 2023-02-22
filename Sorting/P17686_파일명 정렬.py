@@ -10,8 +10,7 @@ def solution(files):
         number = ""
 
         # 각 파일명의 한 글자씩 비교
-        for j in range(0, len(file)):
-            
+        for j in range(0, len(file)): 
             # 글자가 문자고 NUMBER가 없으면, HEAD에 글자를 추가
             if not(file[j].isdigit()) and not(number):
                 head = head + file[j].lower()

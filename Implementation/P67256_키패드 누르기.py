@@ -37,7 +37,6 @@ def solution(numbers, hand):
     answers = ""
 
     for number in numbers:
-        
         # 1, 4, 7을 입력하는 경우 = 왼손 엄지손가락을 사용
         if number in [1, 4, 7]:
             l = key[number]
