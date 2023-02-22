@@ -1,4 +1,4 @@
-# P17684. 전화번호 목록
+# P17684. 압축
 # [프로그래머스] https://school.programmers.co.kr/learn/courses/30/lessons/17684
 
 

@@ -1,4 +1,4 @@
-# P1844. 전력망을 둘로 나누기
+# P1844. 게임 맵 최단거리
 # [프로그래머스] https://school.programmers.co.kr/learn/courses/30/lessons/1844
 
 

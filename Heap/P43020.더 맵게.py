@@ -1,4 +1,4 @@
-# P43020. 전화번호 목록
+# P43020. 더 맵게
 # [프로그래머스] https://school.programmers.co.kr/learn/courses/30/lessons/43020
 
 
