@@ -20,7 +20,7 @@ queue = deque()
 for i in range(0, n):
     for j in range(0, m):
         if graphs[i][j] == 1:
-            queue.append([i, j])
+            queue.append((i, j))
 
 
 # 너비 우선 탐색 알고리즘
@@ -46,13 +46,13 @@ BFS()
 answer = -1
 
 # 그래프에서 최대값을 정답으로 출력
-for graph in graphs:
-    for g in graph:
-        if g == 0:
+for i in range(0, n):
+    for j in range(0, m):
+        if graphs[i][j] == 0:
             print(-1)
             exit(0)
 
-        answer = max(answer, g)
+        answer = max(answer, graphs[i][j])
 
 
 print(answer - 1)
