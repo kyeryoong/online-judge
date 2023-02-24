@@ -7,7 +7,7 @@ input = sys.stdin.readline
 
 
 # 재귀 최대 깊이 설정
-sys.setrecursionlimit(10000)
+sys.setrecursionlimit(1000000)
 
 # 정점의 개수와 간선의 개수
 n, m = map(int, input().split())

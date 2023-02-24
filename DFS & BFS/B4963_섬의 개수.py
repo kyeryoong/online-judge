@@ -7,7 +7,7 @@ input = sys.stdin.readline
 
 
 # 재귀 최대 깊이 설정
-sys.setrecursionlimit(10000)
+sys.setrecursionlimit(1000000)
 
 
 # 테스트 케이스 입력
