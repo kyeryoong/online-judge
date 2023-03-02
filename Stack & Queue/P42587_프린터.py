@@ -2,12 +2,15 @@
 # [프로그래머스] https://school.programmers.co.kr/learn/courses/30/lessons/42587
 
 
+from collections import deque
+
+
 def solution(priorities, location):
     # 문서를 (번호, 중요도) 형식으로 대기목록에 저장
-    queue = [(i, priorities[i]) for i in range(0, len(priorities))]
+    queue = deque([(i, priorities[i]) for i in range(0, len(priorities))])
     
     # 인쇄된 문서
-    printed = []
+    printed = deque()
     
     # 요청한 문서
     check = queue[location]
@@ -19,18 +22,17 @@ def solution(priorities, location):
         
         # 가장 앞에 있는 문서의 중요도가 가장 높으면 출력
         if queue[0][1] == max(priority):
-            x = queue.pop(0)
+            x = queue.popleft()
             printed.append(x)
         
         # 가장 앞에 있는 문서의 중요도가 가장 높지 않으면, 대기목록의 가장 마지막에 넣음
         else:
-            x = queue.pop(0)
-            queue.append(x)
+            queue.rotate(-1)
             
 
     # 요청한 문서가 몇 번째로 인쇄되는지 확인
     return printed.index(check) + 1
 
 
-print(solution([2, 1, 3, 2], 2))
-print(solution([1, 1, 9, 1, 1, 1], 0))
+print(solution([2, 1, 3, 2], 2))    # 1
+print(solution([1, 1, 9, 1, 1, 1], 0))  # 5
