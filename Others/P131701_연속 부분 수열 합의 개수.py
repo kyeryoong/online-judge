@@ -1,4 +1,4 @@
-# P131701. 뉴스 클러스터링
+# P131701. 연속 부분 수열 합의 개수
 # [프로그래머스] https://school.programmers.co.kr/learn/courses/30/lessons/131701
 
 
