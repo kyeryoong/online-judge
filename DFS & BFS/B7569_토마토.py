@@ -27,8 +27,8 @@ for i in range(0, h):
 # 너비 우선 탐색 알고리즘
 def BFS():
     dx = [-1, 1, 0, 0, 0, 0]
-    dy = [0, 0, 1, -1, 0, 0]
-    dz = [0, 0, 0, 0, 1, -1]
+    dy = [0, 0, -1, 1, 0, 0]
+    dz = [0, 0, 0, 0, -1, 1]
 
     while queue:
         x, y, z = queue.popleft()

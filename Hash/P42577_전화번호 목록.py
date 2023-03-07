@@ -52,8 +52,6 @@ def solution3(phone_book):
     return True
         
 
-
-
 print(solution3(["119", "97674223", "1195524421"])) # False
 print(solution3(["123","456","789"])) # True
 print(solution3(["12","123","1235","567","88"])) # False
