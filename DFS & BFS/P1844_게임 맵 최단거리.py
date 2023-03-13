@@ -9,11 +9,11 @@ def solution(maps):
     # 맵의 행과 열의 길이
     n, m = len(maps), len(maps[0])
         
-    dx = [0, 0, -1, 1]
-    dy = [-1, 1, 0, 0]
-
 
     # 너비 우선 탐색 알고리즘
+    dx = [0, 0, -1, 1]
+    dy = [-1, 1, 0, 0]
+    
     def BFS(x, y):
         queue = deque()
         queue.append([x, y])

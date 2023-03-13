@@ -5,9 +5,6 @@
 from copy import deepcopy
 import sys
 input = sys.stdin.readline
-
-
-# 재귀 최대 깊이 설정
 sys.setrecursionlimit(1000000)
 
 
@@ -27,6 +24,7 @@ for i in range(0, n):
 
 
 # 깊이 우선 탐색 알고리즘
+
 def DFS(x, y, rain):
     if not(0 <= x < n and 0 <= y < n):
         return False
