@@ -5,9 +5,6 @@
 from copy import deepcopy
 import sys
 input = sys.stdin.readline
-
-
-# 재귀 최대 깊이 설정
 sys.setrecursionlimit(1000000)
 
 

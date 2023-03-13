@@ -4,10 +4,8 @@
 
 import sys
 input = sys.stdin.readline
-
-
-# 재귀 최대 깊이 설정
 sys.setrecursionlimit(1000000)
+
 
 # 모눈종이의 가로와 세로의 길이, 직사각형의 좌표 개수
 m, n, k = map(int, input().split())
@@ -28,11 +26,10 @@ for square in squares:
             boards[i][j] = 1
 
 
+# 깊이 우선 탐색 알고리즘
 dx = [0, 0, -1, 1]
 dy = [-1, 1, 0, 0]
 
-
-# 깊이 우선 탐색 알고리즘
 def DFS(x, y):
     global count
 

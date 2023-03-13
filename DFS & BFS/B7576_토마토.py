@@ -24,10 +24,10 @@ for i in range(0, n):
 
 
 # 너비 우선 탐색 알고리즘
-def BFS():
-    dx = [0, 0, -1, 1]
-    dy = [-1, 1, 0, 0]
+dx = [0, 0, -1, 1]
+dy = [-1, 1, 0, 0]
 
+def BFS():
     while queue:
         x, y = queue.popleft()
 

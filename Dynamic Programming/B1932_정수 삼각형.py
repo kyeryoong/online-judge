@@ -1,5 +1,5 @@
 # B1932. 정수 삼각형
-# [백준] https://www.acmicpc.net/problem/11724
+# [백준] https://www.acmicpc.net/problem/1932
 
 
 import sys
