@@ -12,6 +12,7 @@
 | 백준 | 7576 | 토마토 | <span style="color: #ec9a00">골드 5 |
 | 백준 | 10026 | 적록색약 | <span style="color: #ec9a00">골드 5 |
 | 백준 | 11724 | 연결 요소의 개수 | <span style="color: #435f7a">실버 2 |
+| 백준 | 16234 | 인구 이동 | <span style="color: #ec9a00">골드 5 |
 | 프로그래머스 | 1844 | 게임 맵 최단거리 | <span style="color: #47c84c">Lv. 2 |
 | 프로그래머스 | 86971 | 전력망을 둘로 나누기 | <span style="color: #47c84c">Lv. 2 |
 <br>
