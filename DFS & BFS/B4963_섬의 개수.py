@@ -35,7 +35,7 @@ def solution(graph):
 
     # 깊이 우선 탐색 알고리즘
     def DFS(x, y):
-        if not (0 <= x < n and 0 <= y < m):
+        if not(0 <= x < n and 0 <= y < m):
             return False
 
         if graph[x][y] == 1:
