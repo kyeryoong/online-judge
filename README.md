@@ -22,6 +22,7 @@
 | --- | --- | --- | --- |
 | 백준 | 1149 | RGB 거리 | <span style="color: #435f7a">실버 1 |
 | 백준 | 1932 | 정수 삼각형 | <span style="color: #435f7a">실버 1 |
+| 백준 | 2156 | 포도주 시식 | <span style="color: #435f7a">실버 1 |
 | 백준 | 10844 | 쉬운 계단 수 | <span style="color: #435f7a">실버 1 |
 | 백준 | 14501 | 퇴사 | <span style="color: #435f7a">실버 3 |
 | 프로그래머스 | 12900 | 2 x n 타일링 | <span style="color: #47c84c">Lv. 2 |
@@ -65,6 +66,7 @@
 | 출처 | 번호 | 이름 | 난이도 |
 | --- | --- | --- | --- |
 | 백준 | 1753 | 최단 경로 | <span style="color: #ec9a00">골드 4 |
+| 백준 | 1916 | 최소비용 구하기 | <span style="color: #ec9a00">골드 5 |
 | 백준 | 11404 | 플로이드 | <span style="color: #ec9a00">골드 4 |
 <br>
 
@@ -82,6 +84,13 @@
 | 프로그래머스 | 76502 | 괄호 회전하기 | <span style="color: #47c84c">Lv. 2 |
 | 프로그래머스 | 118687 | 두 큐 합 같게 만들기 | <span style="color: #47c84c">Lv. 2 |
 | 프로그래머스 | 131704 | 택배상자 | <span style="color: #47c84c">Lv. 2 |
+<br>
+
+## 트리
+| 출처 | 번호 | 이름 | 난이도 |
+| --- | --- | --- | --- |
+| 백준 | 1068 | 트리 | <span style="color: #ec9a00">골드 5 |
+| 백준 | 1991 | 트리 | <span style="color: #435f7a">실버 1 |
 <br>
 
 ## 기타
