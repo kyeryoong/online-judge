@@ -5,7 +5,7 @@
 from copy import deepcopy
 import sys
 input = sys.stdin.readline
-sys.setrecursionlimit(1000000)
+sys.setrecursionlimit(10 ** 7)
 
 
 n = int(input())

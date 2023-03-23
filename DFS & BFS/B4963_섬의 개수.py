@@ -4,7 +4,7 @@
 
 import sys
 input = sys.stdin.readline
-sys.setrecursionlimit(1000000)
+sys.setrecursionlimit(10 ** 7)
 
 
 # 테스트 케이스 입력

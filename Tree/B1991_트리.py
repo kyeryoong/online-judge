@@ -3,7 +3,7 @@
 
 
 import sys
-sys.setrecursionlimit(1000000)
+sys.setrecursionlimit(10 ** 7)
 input = sys.stdin.readline
 
 
