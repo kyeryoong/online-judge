@@ -56,6 +56,7 @@
 | 출처 | 번호 | 이름 | 난이도 |
 | --- | --- | --- | --- |
 | 백준 | 14503 | 로봇청소기 | <span style="color: #ec9a00">골드 5 |
+| 백준 | 17144 | 미세먼지 안녕! | <span style="color: #ec9a00">골드 4 |
 | 프로그래머스 | 17677 | 뉴스 클러스터링 | <span style="color: #47c84c">Lv. 2 |
 | 프로그래머스 | 17679 | 프렌즈4블록 | <span style="color: #47c84c">Lv. 2 |
 | 프로그래머스 | 17682 | 다트 게임 | <span style="color: #1bbaff">Lv. 1 |
