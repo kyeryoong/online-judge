@@ -1,4 +1,4 @@
-# B16234. 연결 요소의 개수
+# B16234. 인구 이동
 # [백준] https://www.acmicpc.net/problem/16234
 
 

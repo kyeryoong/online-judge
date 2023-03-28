@@ -4,6 +4,7 @@
 ## 깊이 우선 탐색 & 너비 우선 탐색
 | 출처 | 번호 | 이름 | 난이도 |
 | --- | --- | --- | --- |
+| 백준 | 1697 | 숨바꼭질 | <span style="color: #435f7a">실버 1 |
 | 백준 | 2468 | 안전 영역 | <span style="color: #435f7a">실버 1 |
 | 백준 | 2583 | 영역 구하기 | <span style="color: #435f7a">실버 1 |
 | 백준 | 4963 | 섬의 개수 | <span style="color: #435f7a">실버 2 |
@@ -12,7 +13,9 @@
 | 백준 | 7576 | 토마토 | <span style="color: #ec9a00">골드 5 |
 | 백준 | 10026 | 적록색약 | <span style="color: #ec9a00">골드 5 |
 | 백준 | 11724 | 연결 요소의 개수 | <span style="color: #435f7a">실버 2 |
+| 백준 | 13549 | 숨바꼭질 | <span style="color: #ec9a00">골드 5 |
 | 백준 | 16234 | 인구 이동 | <span style="color: #ec9a00">골드 5 |
+| 백준 | 16953 | A → B | <span style="color: #435f7a">실버 2 |
 | 프로그래머스 | 1844 | 게임 맵 최단거리 | <span style="color: #47c84c">Lv. 2 |
 | 프로그래머스 | 86971 | 전력망을 둘로 나누기 | <span style="color: #47c84c">Lv. 2 |
 <br>

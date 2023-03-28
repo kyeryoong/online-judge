@@ -1,4 +1,4 @@
-# B10026. 토마토
+# B10026. 적록색약
 # [백준] https://www.acmicpc.net/problem/10026
 
 

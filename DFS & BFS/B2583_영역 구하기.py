@@ -4,7 +4,7 @@
 
 import sys
 input = sys.stdin.readline
-sys.setrecursionlimit(1000000)
+sys.setrecursionlimit(10 ** 7)
 
 
 # 모눈종이의 가로와 세로의 길이, 직사각형의 좌표 개수
