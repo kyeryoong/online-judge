@@ -1,5 +1,5 @@
-# B1753. 최단경로
-# [백준] https://www.acmicpc.net/problem/1753
+# B1916. 최소비용 구하기
+# [백준] https://www.acmicpc.net/problem/1916
 
 
 import heapq
@@ -11,23 +11,25 @@ input = sys.stdin.readline
 INF = int(1e9)
 
 
-# 노드와 간선의 개수
-n, m = map(int, input().split())
+# 도시와 버스의 개수
+n = int(input())
+m = int(input())
 
-# 시작 노드 번호
-start = int(input())
-
-# 각 노드에 연결되어 있는 노드에 대한 정보
+# 각 도시에 연결되어 있는 버스에 대한 정보
 graph = [[] for _ in range(0, n + 1)]
 
 
-# 간선 정보 입력
+# 버스 정보 입력
 for _ in range(0, m):
-    # a번 노드에서 b번 노드로 가는 비용은 c
+    # a 도시에서 b 도시로 가는 비용은 c
     a, b, c = map(int, input().split())
     graph[a].append((b, c))
 
 
+# 출발점과 도착점
+start, end = map(int, input().split())
+
+    
 def dijkstra(start):
     # 최단 거리 테이블
     distance = [INF] * (n + 1)
@@ -35,12 +37,12 @@ def dijkstra(start):
     
     queue = []
     
-    # 시작 노드로 가기 위한 최단 경로를 0으로 설정한 후 큐에 삽입
+    # 출발점으로 가기 위한 최단 경로를 0으로 설정한 후 큐에 삽입
     heapq.heappush(queue, (0, start))
-    
-    # 큐가 비어있지 않는 동안 수행
+
+        # 큐가 비어있지 않는 동안 수행
     while queue:
-        # 최단 거리가 가장 짧은 노드의 정보 꺼내기
+        # 최단 거리가 가장 짧은 노드의 정보 꺼내기 
         dist, now = heapq.heappop(queue)
         
         # 현재 노드가 이미 처리된 적이 있는 노드라면 무시
@@ -57,17 +59,11 @@ def dijkstra(start):
                 heapq.heappush(queue, (cost, i[0]))
                 
     return distance
-        
 
-# 다익스트라 알고리즘 수행
+
+# 출발점에서 다익스트라 알고리즘 수행
 distance = dijkstra(start)
 
 
-for i in range(1, n + 1):
-    # 도달할 수 없는 경우
-    if distance[i] == INF:
-        print("INF")
-
-    # 도달할 수 있는 경우
-    else:
-        print(distance[i])
+# 도착점까지 가는데 드는 최소 비용 출력
+print(distance[end])
