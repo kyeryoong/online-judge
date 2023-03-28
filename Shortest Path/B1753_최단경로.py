@@ -7,7 +7,8 @@ import sys
 input = sys.stdin.readline
 
 
-INF = int(1e9)  # 무한을 의미하는 값
+# 무한을 의미하는 값
+INF = int(1e9)
 
 
 # 노드와 간선의 개수
@@ -19,9 +20,6 @@ start = int(input())
 # 각 노드에 연결되어 있는 노드에 대한 정보
 graph = [[] for _ in range(0, n + 1)]
 
-# 최단 거리 테이블
-distance = [INF] * (n + 1)
-
 
 # 간선 정보 입력
 for _ in range(0, m):
@@ -31,12 +29,14 @@ for _ in range(0, m):
 
 
 def dijkstra(start):
+    # 최단 거리 테이블
+    distance = [INF] * (n + 1)
+    distance[start] = 0
+    
     queue = []
     
     # 시작 노드로 가기 위한 최단 경로를 0으로 설정한 후 큐에 삽입
     heapq.heappush(queue, (0, start))
-
-    distance[start] = 0
     
     # 큐가 비어있지 않는 동안 수행
     while queue:
@@ -55,10 +55,12 @@ def dijkstra(start):
             if cost < distance[i[0]]:
                 distance[i[0]] = cost
                 heapq.heappush(queue, (cost, i[0]))
+                
+    return distance
         
 
 # 다익스트라 알고리즘 수행
-dijkstra(start)
+distance = dijkstra(start)
 
 
 for i in range(1, n + 1):

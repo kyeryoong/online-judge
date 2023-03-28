@@ -7,7 +7,8 @@ import sys
 input = sys.stdin.readline
 
 
-INF = int(1e9)  # 무한을 의미하는 값
+# 무한을 의미하는 값
+INF = int(1e9)
 
 
 # 공간의 크기

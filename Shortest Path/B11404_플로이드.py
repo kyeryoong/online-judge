@@ -2,7 +2,8 @@
 # [백준] https://www.acmicpc.net/problem/11404
 
 
-INF = int(1e9)  # 무한을 의미하는 값
+# 무한을 의미하는 값
+INF = int(1e9)
 
 
 # 노드의 개수와 간선의 개수

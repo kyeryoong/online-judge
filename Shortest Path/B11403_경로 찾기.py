@@ -2,7 +2,8 @@
 # [백준] https://www.acmicpc.net/problem/11403
 
 
-INF = int(1e9)  # 무한을 의미하는 값
+# 무한을 의미하는 값
+INF = int(1e9)
 
 
 # 정점의 개수

@@ -7,7 +7,8 @@ import sys
 input = sys.stdin.readline
 
 
-INF = int(1e9)   # 무한을 의미하는 값
+# 무한을 의미하는 값
+INF = int(1e9)
 
 
 # 도시와 버스의 개수
@@ -16,9 +17,6 @@ m = int(input())
 
 # 각 도시에 연결되어 있는 버스에 대한 정보
 graph = [[] for _ in range(0, n + 1)]
-
-# 최단 거리 테이블
-distance = [INF] * (n + 1)
 
 
 # 버스 정보 입력
@@ -33,14 +31,16 @@ start, end = map(int, input().split())
 
     
 def dijkstra(start):
+    # 최단 거리 테이블
+    distance = [INF] * (n + 1)
+    distance[start] = 0
+    
     queue = []
     
     # 출발점으로 가기 위한 최단 경로를 0으로 설정한 후 큐에 삽입
     heapq.heappush(queue, (0, start))
-    
-    distance[start] = 0
-    
-    # 큐가 비어있지 않는 동안 수행
+
+        # 큐가 비어있지 않는 동안 수행
     while queue:
         # 최단 거리가 가장 짧은 노드의 정보 꺼내기 
         dist, now = heapq.heappop(queue)
@@ -57,10 +57,12 @@ def dijkstra(start):
             if cost < distance[i[0]]:
                 distance[i[0]] = cost
                 heapq.heappush(queue, (cost, i[0]))
+                
+    return distance
 
 
 # 출발점에서 다익스트라 알고리즘 수행
-dijkstra(start)
+distance = dijkstra(start)
 
 
 # 도착점까지 가는데 드는 최소 비용 출력
