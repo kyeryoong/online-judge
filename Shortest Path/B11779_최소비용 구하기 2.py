@@ -36,10 +36,9 @@ def dijkstra(vertex):
     
     # [Key Point] 최단 거리로 가는 경로가 담긴 테이블
     answer = [None] * (n + 1)
-
-    queue = []
     
     # (거리, 도시, 도시까지 가는 경로) 형식으로 큐에 삽입
+    queue = []
     heapq.heappush(queue, (0, vertex, [vertex]))
 
     while queue:

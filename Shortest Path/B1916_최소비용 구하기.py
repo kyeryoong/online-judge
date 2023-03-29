@@ -29,15 +29,15 @@ for _ in range(0, m):
 # 출발점과 도착점
 start, end = map(int, input().split())
 
-    
+   
+# 다익스트라 알고리즘 
 def dijkstra(vertex):
     # 최단 거리 테이블
     distance = [INF] * (n + 1)
     distance[vertex] = 0
-    
-    queue = []
-    
+        
     # 출발점으로 가기 위한 최단 경로를 0으로 설정한 후 큐에 삽입
+    queue = []
     heapq.heappush(queue, (0, vertex))
 
     # 큐가 비어있지 않는 동안 수행

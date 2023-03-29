@@ -28,14 +28,14 @@ for _ in range(0, m):
     graph[a].append((b, c))
 
 
+# 다익스트라 알고리즘
 def dijkstra(start):
     # 최단 거리 테이블
     distance = [INF] * (n + 1)
     distance[start] = 0
-    
-    queue = []
-    
+        
     # 시작 노드로 가기 위한 최단 경로를 0으로 설정한 후 큐에 삽입
+    queue = []
     heapq.heappush(queue, (0, start))
     
     # 큐가 비어있지 않는 동안 수행

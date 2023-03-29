@@ -79,9 +79,11 @@
 | 백준 | 1504 | 특정한 최단 경로 | <span style="color: #ec9a00">골드 4 |
 | 백준 | 1753 | 최단 경로 | <span style="color: #ec9a00">골드 4 |
 | 백준 | 1916 | 최소비용 구하기 | <span style="color: #ec9a00">골드 5 |
+| 백준 | 2665 | 미로만들기 | <span style="color: #ec9a00">골드 4 |
+| 백준 | 4485 | 녹색 옷 입은 애가 젤다지? | <span style="color: #ec9a00">골드 5 |
 | 백준 | 11403 | 경로 찾기 | <span style="color: #435f7a">실버 1 |
 | 백준 | 11404 | 플로이드 | <span style="color: #ec9a00">골드 4 |
-| 백준 | 11779 | 최소비용 구하기 | <span style="color: #ec9a00">골드 3 |
+| 백준 | 11779 | 최소비용 구하기 2 | <span style="color: #ec9a00">골드 3 |
 <br>
 
 ## 정렬
