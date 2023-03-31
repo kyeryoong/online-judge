@@ -2,11 +2,16 @@
 # [백준] https://www.acmicpc.net/problem/10844
 
 
+import sys
+input = sys.stdin.readline
+
+
 n = int(input())
 
-dp = [[0 for _ in range(0, 10)] for _ in range(0, n + 1)]
 
 # dp[n][m]: 길이가 n이고 m으로 끝나는 계단 수의 개수
+dp = [[0 for _ in range(0, 10)] for _ in range(0, n + 1)]
+
 
 # 길이가 1인 계단 수는 1부터 9이다.
 dp[1] = [0, 1, 1, 1, 1, 1, 1, 1, 1, 1]

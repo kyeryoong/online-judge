@@ -10,6 +10,7 @@ n = int(input())
 
 triangles = [list(map(int, input().split())) for _ in range(1, n + 1)]
 
+
 for i in range(1, n):
     # 가장 왼쪽은 대각선 오른쪽을 더함
     triangles[i][0] = triangles[i][0] + triangles[i - 1][0]

@@ -6,10 +6,9 @@ import sys
 input = sys.stdin.readline
 
 
-# 포도주 잔의 개수
+
 n = int(input())
 
-# 포도주
 wines = [int(input()) for _ in range(0, n)]
 
 

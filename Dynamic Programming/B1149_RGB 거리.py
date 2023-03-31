@@ -8,6 +8,9 @@ input = sys.stdin.readline
 
 n = int(input())
 
+# costs[i][0]: i번 집을 빨간색으로 칠했을 때, 모든 집을 칠하는 비용의 최솟값
+# costs[i][1]: i번 집을 초록색으로 칠했을 때, 모든 집을 칠하는 비용의 최솟값
+# costs[i][2]: i번 집을 파란색으로 칠했을 때, 모든 집을 칠하는 비용의 최솟값
 costs = [list(map(int, input().split())) for _ in range(0, n)]
 
 
