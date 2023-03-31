@@ -30,25 +30,25 @@ v1, v2 = map(int, input().split())
 
 
 # 다익스트라 알고리즘
-def dijkstra(start):
+def dijkstra(vertex):
     distance = [INF] * (n + 1)
-    distance[start] = 0
+    distance[vertex] = 0
     
     queue = []
-    heapq.heappush(queue, (0, start))
+    heapq.heappush(queue, (0, vertex))
 
     while queue:
-        dist, now = heapq.heappop(queue)
+        min_dist, min_vertex = heapq.heappop(queue)
 
-        if distance[now] < dist:
+        if distance[min_vertex] < min_dist:
             continue
 
-        for i in graph[now]:
-            cost = dist + i[1]
+        for v, d in graph[min_vertex]:
+            cost = min_dist + d
 
-            if cost < distance[i[0]]:
-                distance[i[0]] = cost
-                heapq.heappush(queue, (cost, i[0]))
+            if cost < distance[v]:
+                distance[v] = cost
+                heapq.heappush(queue, (cost, v))
 
     return distance
 

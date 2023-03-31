@@ -29,32 +29,32 @@ for _ in range(0, m):
 
 
 # 다익스트라 알고리즘
-def dijkstra(start):
+def dijkstra(vertex):
     # 최단 거리 테이블
     distance = [INF] * (n + 1)
-    distance[start] = 0
+    distance[vertex] = 0
         
     # 시작 노드로 가기 위한 최단 경로를 0으로 설정한 후 큐에 삽입
     queue = []
-    heapq.heappush(queue, (0, start))
+    heapq.heappush(queue, (0, vertex))
     
     # 큐가 비어있지 않는 동안 수행
     while queue:
         # 최단 거리가 가장 짧은 노드의 정보 꺼내기
-        dist, now = heapq.heappop(queue)
+        min_dist, min_vertex = heapq.heappop(queue)
         
         # 현재 노드가 이미 처리된 적이 있는 노드라면 무시
-        if distance[now] < dist:
+        if distance[min_vertex] < min_dist:
             continue
         
         # 현재 노드와 연결된 다른 인접한 노드들을 확인
-        for i in graph[now]:
-            cost = dist + i[1]
+        for v, d in graph[min_vertex]:
+            cost = min_dist + d
             
             # 현재 노드를 거쳐서 다른 노드로 이동하는 거리가 더 짧은 경우 
-            if cost < distance[i[0]]:
-                distance[i[0]] = cost
-                heapq.heappush(queue, (cost, i[0]))
+            if cost < distance[v]:
+                distance[v] = cost
+                heapq.heappush(queue, (cost, v))
                 
     return distance
         
