@@ -2,6 +2,10 @@
 # [백준] https://www.acmicpc.net/problem/11404
 
 
+import sys
+input = sys.stdin.readline
+
+
 # 무한을 의미하는 값
 INF = int(1e9)
 
