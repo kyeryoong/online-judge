@@ -21,6 +21,7 @@
 | 백준 | 16953 | A → B | <span style="color: #435f7a">실버 2 |
 | 백준 | 16236 | 아기 상어 | <span style="color: #ec9a00">골드 3 |
 | 프로그래머스 | 1844 | 게임 맵 최단거리 | <span style="color: #47c84c">Lv. 2 |
+| 프로그래머스 | 43163 | 단어 변환 | <span style="color: #ffa800">Lv. 3 |
 | 프로그래머스 | 86971 | 전력망을 둘로 나누기 | <span style="color: #47c84c">Lv. 2 |
 <br>
 
@@ -114,7 +115,8 @@
 | 출처 | 번호 | 이름 | 난이도 |
 | --- | --- | --- | --- |
 | 백준 | 1197 | 최소 스패닝 트리 | <span style="color: #ec9a00">골드 4 |
-| 백준 | 1922 | 네트워크 연결 | <span style="color: #ec9a00">골드 4 |
+| 백준 | 1647 | 도시 분할 계획 | <span style="color: #ec9a00">골드 4 |
+| 백준 | 1647 | 별자리 만들기 | <span style="color: #ec9a00">골드 4 |
 <br>
 
 ## 트리
