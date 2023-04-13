@@ -43,9 +43,11 @@ def solution(begin, target, words):
     # 변환할 수 없는 경우 0을 반환
     return 0
 
+
 print(solution("hit", "cog", ))
 print(solution("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"]))   # 4
 print(solution("hit", "cog", ["hot", "dot", "dog", "lot", "log"]))  # 0
 print(solution("hit", "hot", ["hot", "dot", "dog", "lot", "log"]))  # 1
-print(solution("1234567000", "1234567899", ["1234567800", "1234567890", "1234567899"]))  # 3
+print(solution("1234567000", "1234567899", [
+      "1234567800", "1234567890", "1234567899"]))  # 3
 print(solution("hit", "cog", ["cog", "log", "lot", "dog", "hot"]))  # 4
