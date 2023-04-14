@@ -1,4 +1,4 @@
-# B2458. 최소비용 구하기
+# B2458. 키 순서
 # [백준] https://www.acmicpc.net/problem/2458
 
 
@@ -50,10 +50,10 @@ for i in range(1, n + 1):
     taller = 0
 
     for j in range(1, n + 1):
-        if graph[i][j] != 0 and graph[i][j] != INF:
+        if 0 < graph[i][j] < INF:
             shorter = shorter + 1
 
-        if graph[j][i] != 0 and graph[j][i] != INF:
+        if 0 < graph[j][i] < INF:
             taller = taller + 1
 
     if shorter + taller == n - 1:
