@@ -24,7 +24,6 @@ for i in range(0, n):
 
 
 # 깊이 우선 탐색 알고리즘
-
 def DFS(x, y, rain):
     if not(0 <= x < n and 0 <= y < n):
         return False

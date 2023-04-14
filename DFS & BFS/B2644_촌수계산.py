@@ -1,4 +1,4 @@
-# 2644. 촌수계산
+# B2644. 촌수계산
 # [백준] https://www.acmicpc.net/problem/2644
 
 

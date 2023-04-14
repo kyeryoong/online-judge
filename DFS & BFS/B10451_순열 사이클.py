@@ -1,4 +1,4 @@
-# B10451. 내리막 길
+# B10451. 순열 사이클
 # [백준] https://www.acmicpc.net/problem/10451
 
 
