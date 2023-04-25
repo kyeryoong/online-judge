@@ -37,3 +37,6 @@ def solution(scoville, K):
 
     else:
         return answer
+
+
+print(solution([1, 2, 3, 9, 10, 12], 7))    # 2
