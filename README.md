@@ -128,9 +128,12 @@
 ## 투 포인터
 | 출처 | 번호 | 이름 | 난이도 |
 | --- | --- | --- | --- |
+| 백준 | 1253 | 좋다 | <span style="color: #ec9a00">골드 4 |
 | 백준 | 1806 | 부분합 | <span style="color: #ec9a00">골드 4 |
 | 백준 | 2003 | 수들의 합 2 | <span style="color: #435f7a">실버 4 |
+| 백준 | 2470 | 두 용액 | <span style="color: #ec9a00">골드 5 |
 | 백준 | 2559 | 수열 | <span style="color: #435f7a">실버 3 |
+| 백준 | 3273 | 두 수의 합 | <span style="color: #435f7a">실버 3 |
 | 프로그래머스 | 178870 | 연속된 부분 수열의 합 | <span style="color: #47c84c">Lv. 2 |
 | 프로그래머스 | 67258 | 보석 쇼핑 | <span style="color: #ffa800">Lv. 3 |
 <br>
