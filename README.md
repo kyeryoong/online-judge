@@ -19,10 +19,11 @@
 | 백준 | 11725 | 트리의 부모 찾기 | <span style="color: #435f7a">실버 2 | 트리 |
 | 백준 | 13549 | 숨바꼭질 | <span style="color: #ec9a00">골드 5 |
 | 백준 | 16234 | 인구 이동 | <span style="color: #ec9a00">골드 5 |
-| 백준 | 16953 | A → B | <span style="color: #435f7a">실버 2 |
 | 백준 | 16236 | 아기 상어 | <span style="color: #ec9a00">골드 3 |
+| 백준 | 16953 | A → B | <span style="color: #435f7a">실버 2 |
 | 프로그래머스 | 1844 | 게임 맵 최단거리 | <span style="color: #47c84c">Lv. 2 |
 | 프로그래머스 | 43163 | 단어 변환 | <span style="color: #ffa800">Lv. 3 |
+| 프로그래머스 | 43164 | 여행경로 | <span style="color: #ffa800">Lv. 3 |
 | 프로그래머스 | 86971 | 전력망을 둘로 나누기 | <span style="color: #47c84c">Lv. 2 |
 | 프로그래머스 | 154540 | 무인도 여행 | <span style="color: #47c84c">Lv. 2 |
 <br>
@@ -34,6 +35,7 @@
 | 백준 | 1932 | 정수 삼각형 | <span style="color: #435f7a">실버 1 |
 | 백준 | 2156 | 포도주 시식 | <span style="color: #435f7a">실버 1 |
 | 백준 | 10844 | 쉬운 계단 수 | <span style="color: #435f7a">실버 1 |
+| 백준 | 11053 | 가장 긴 증가하는 부분 수열 | <span style="color: #435f7a">실버 2 |
 | 백준 | 14501 | 퇴사 | <span style="color: #435f7a">실버 3 |
 | 프로그래머스 | 12900 | 2 x n 타일링 | <span style="color: #47c84c">Lv. 2 |
 | 프로그래머스 | 12913 | 땅따먹기 | <span style="color: #47c84c">Lv. 2 |
@@ -43,6 +45,7 @@
 ## 탐욕법
 | 출처 | 번호 | 이름 | 난이도 |
 | --- | --- | --- | --- |
+| 프로그래머스 | 42884 | 단속카메라 | <span style="color: #47c84c">Lv. 3 |
 | 프로그래머스 | 42885 | 구명보트 | <span style="color: #47c84c">Lv. 2 |
 | 프로그래머스 | 138476 | 귤 고르기 | <span style="color: #47c84c">Lv. 2 |
 <br>
@@ -67,6 +70,7 @@
 | 출처 | 번호 | 이름 | 난이도 |
 | --- | --- | --- | --- |
 | 백준 | 14503 | 로봇청소기 | <span style="color: #ec9a00">골드 5 |
+| 백준 | 15683 | 감시 | <span style="color: #ec9a00">골드 4 |
 | 백준 | 16927 | 배열 돌리기 2 | <span style="color: #ec9a00">골드 5 |
 | 백준 | 16935 | 배열 돌리기 3 | <span style="color: #435f7a">실버 1 |
 | 백준 | 17144 | 미세먼지 안녕! | <span style="color: #ec9a00">골드 4 |
@@ -80,6 +84,14 @@
 | 프로그래머스 | 77845 | 행렬 테두리 회전하기 | <span style="color: #47c84c">Lv. 2 |
 <br>
 
+## 최소 스패닝 트리
+| 출처 | 번호 | 이름 | 난이도 |
+| --- | --- | --- | --- |
+| 백준 | 1197 | 최소 스패닝 트리 | <span style="color: #ec9a00">골드 4 |
+| 백준 | 1647 | 도시 분할 계획 | <span style="color: #ec9a00">골드 4 |
+| 백준 | 1647 | 별자리 만들기 | <span style="color: #ec9a00">골드 4 |
+<br>
+
 ## 최단 경로
 | 출처 | 번호 | 이름 | 난이도 |
 | --- | --- | --- | --- |
@@ -87,6 +99,7 @@
 | 백준 | 1504 | 특정한 최단 경로 | <span style="color: #ec9a00">골드 4 |
 | 백준 | 1753 | 최단 경로 | <span style="color: #ec9a00">골드 4 |
 | 백준 | 1916 | 최소비용 구하기 | <span style="color: #ec9a00">골드 5 |
+| 백준 | 2458 | 키 순서 | <span style="color: #ec9a00">골드 4 |
 | 백준 | 2665 | 미로만들기 | <span style="color: #ec9a00">골드 4 |
 | 백준 | 4485 | 녹색 옷 입은 애가 젤다지? | <span style="color: #ec9a00">골드 5 |
 | 백준 | 11403 | 경로 찾기 | <span style="color: #435f7a">실버 1 |
@@ -110,14 +123,6 @@
 | 프로그래머스 | 131704 | 택배상자 | <span style="color: #47c84c">Lv. 2 |
 <br>
 
-## 최소 스패닝 트리
-| 출처 | 번호 | 이름 | 난이도 |
-| --- | --- | --- | --- |
-| 백준 | 1197 | 최소 스패닝 트리 | <span style="color: #ec9a00">골드 4 |
-| 백준 | 1647 | 도시 분할 계획 | <span style="color: #ec9a00">골드 4 |
-| 백준 | 1647 | 별자리 만들기 | <span style="color: #ec9a00">골드 4 |
-<br>
-
 ## 트리
 | 출처 | 번호 | 이름 | 난이도 |
 | --- | --- | --- | --- |
@@ -134,8 +139,9 @@
 | 백준 | 2470 | 두 용액 | <span style="color: #ec9a00">골드 5 |
 | 백준 | 2559 | 수열 | <span style="color: #435f7a">실버 3 |
 | 백준 | 3273 | 두 수의 합 | <span style="color: #435f7a">실버 3 |
-| 프로그래머스 | 178870 | 연속된 부분 수열의 합 | <span style="color: #47c84c">Lv. 2 |
+| 프로그래머스 | 12987 | 숫자 게임 | <span style="color: #ffa800">Lv. 3 |
 | 프로그래머스 | 67258 | 보석 쇼핑 | <span style="color: #ffa800">Lv. 3 |
+| 프로그래머스 | 178870 | 연속된 부분 수열의 합 | <span style="color: #47c84c">Lv. 2 |
 <br>
 
 ## 기타
