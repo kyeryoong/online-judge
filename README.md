@@ -17,7 +17,8 @@
 | 백준 | 10451 | 순열 사이클 | <span style="color: #435f7a">실버 3 |
 | 백준 | 11724 | 연결 요소의 개수 | <span style="color: #435f7a">실버 2 |
 | 백준 | 11725 | 트리의 부모 찾기 | <span style="color: #435f7a">실버 2 | 트리 |
-| 백준 | 13549 | 숨바꼭질 | <span style="color: #ec9a00">골드 5 |
+| 백준 | 12581 | 숨바꼭질 2 | <span style="color: #ec9a00">골드 4 |
+| 백준 | 13549 | 숨바꼭질 3 | <span style="color: #ec9a00">골드 5 |
 | 백준 | 16234 | 인구 이동 | <span style="color: #ec9a00">골드 5 |
 | 백준 | 16236 | 아기 상어 | <span style="color: #ec9a00">골드 3 |
 | 백준 | 16953 | A → B | <span style="color: #435f7a">실버 2 |
@@ -25,6 +26,7 @@
 | 프로그래머스 | 43163 | 단어 변환 | <span style="color: #ffa800">Lv. 3 |
 | 프로그래머스 | 43164 | 여행경로 | <span style="color: #ffa800">Lv. 3 |
 | 프로그래머스 | 86971 | 전력망을 둘로 나누기 | <span style="color: #47c84c">Lv. 2 |
+| 프로그래머스 | 148653 | 마법의 엘리베이터 | <span style="color: #47c84c">Lv. 2 |
 | 프로그래머스 | 154540 | 무인도 여행 | <span style="color: #47c84c">Lv. 2 |
 <br>
 

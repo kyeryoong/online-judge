@@ -1,4 +1,4 @@
-# P43163. 게임 맵 최단거리
+# P43163. 단어 변환
 # [프로그래머스] https://school.programmers.co.kr/learn/courses/30/lessons/43163
 
 

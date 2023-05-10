@@ -1,4 +1,4 @@
-# B13549. 숨바꼭질
+# B13549. 숨바꼭질 3
 # [백준] https://www.acmicpc.net/problem/13549
 
 
@@ -28,8 +28,8 @@ while queue:
         break
 
     # current_position * 2: 순간이동(시간 증가 없음)
-    # 이동할 위치가 범위 내에 있고, 방문했던적이 없어야 함
-    if 0 <= current_position * 2 <= 100000 and visited[current_position * 2] == 0:
+    # 이동할 위치가 범위 내에 있고, 방문한 적이 없어야 함
+    if 0 <= current_position * 2 <= 100000 and not visited[current_position * 2]:
         # 시간을 증가하지 않고 heapq에 삽입
         heapq.heappush(queue, (current_time, current_position * 2))
         visited[current_position * 2] = True
@@ -38,7 +38,7 @@ while queue:
     # current_position - 1: 앞으로 걷기(1초 증가)
     for new_position in [current_position + 1, current_position - 1]:
         # 이동할 위치가 범위 내에 있고, 방문했던적이 없어야 함
-        if 0 <= new_position <= 100000 and visited[new_position] == 0:
+        if 0 <= new_position <= 100000 and not visited[new_position]:
             # 시간을 1초 증가시키고 heapq에 삽입
             heapq.heappush(queue, (current_time + 1, new_position))
             visited[new_position] = True
